@@ -1,0 +1,121 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@keycloak/keycloak-admin-client': ^16.1.1
+
+dependencies:
+  '@keycloak/keycloak-admin-client': 16.1.1
+
+packages:
+
+  /@keycloak/keycloak-admin-client/16.1.1:
+    resolution: {integrity: sha512-T8lL4ErAROlJeZ2M2K2OGI9Jfqg/BZzSK8uJ8BJ7fo0/tK4RsQk+5s2/cgHdtlWXUOIcgcc/W7JO9xRrcyHdKw==}
+    dependencies:
+      axios: 0.24.0
+      camelize-ts: 1.0.8
+      keycloak-js: 15.1.1
+      lodash: 4.17.21
+      query-string: 7.1.0
+      url-join: 4.0.1
+      url-template: 2.0.8
+    transitivePeerDependencies:
+      - debug
+      - typescript
+    dev: false
+
+  /axios/0.24.0:
+    resolution: {integrity: sha512-Q6cWsys88HoPgAaFAVUb0WpPk0O8iTeisR9IMqy9G8AbO4NlpVknrnQS03zzF9PGAWgO3cgletO3VjV/P7VztA==}
+    dependencies:
+      follow-redirects: 1.14.7
+    transitivePeerDependencies:
+      - debug
+    dev: false
+
+  /base64-js/1.3.1:
+    resolution: {integrity: sha512-mLQ4i2QO1ytvGWFWmcngKO//JXAQueZvwEKtjgQFM4jIK0kU+ytMfplL8j+n5mspOfjHwoAg+9yhb7BwAHm36g==}
+    dev: false
+
+  /camelize-ts/1.0.8:
+    resolution: {integrity: sha512-RM4tOuZ4sILezriYBDhAP3cryfkBnBtYSEC7sODQxVertM/HD/oqqp/W85xpQjyQIr3Jbk2iorbDS3EKKeYTww==}
+    peerDependencies:
+      typescript: ^4.1.3
+    dependencies:
+      lodash.camelcase: 4.3.0
+      lodash.isdate: 4.0.1
+      lodash.isregexp: 4.0.1
+    dev: false
+
+  /decode-uri-component/0.2.0:
+    resolution: {integrity: sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=}
+    engines: {node: '>=0.10'}
+    dev: false
+
+  /filter-obj/1.1.0:
+    resolution: {integrity: sha1-mzERErxsYSehbgFsbF1/GeCAXFs=}
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  /follow-redirects/1.14.7:
+    resolution: {integrity: sha512-+hbxoLbFMbRKDwohX8GkTataGqO6Jb7jGwpAlwgy2bIz25XtRm7KEzJM76R1WiNT5SwZkX4Y75SwBolkpmE7iQ==}
+    engines: {node: '>=4.0'}
+    peerDependencies:
+      debug: '*'
+    peerDependenciesMeta:
+      debug:
+        optional: true
+    dev: false
+
+  /js-sha256/0.9.0:
+    resolution: {integrity: sha512-sga3MHh9sgQN2+pJ9VYZ+1LPwXOxuBJBA5nrR5/ofPfuiJBE2hnjsaN8se8JznOmGLN2p49Pe5U/ttafcs/apA==}
+    dev: false
+
+  /keycloak-js/15.1.1:
+    resolution: {integrity: sha512-PPu70WfSI2CWX7GoF5AQ4HkqYJLTAOV/25wDG//9S5SUOhqIDxKjAv6P54hy8nKt2+rIZF2kqpv7FNEmBN2W4g==}
+    dependencies:
+      base64-js: 1.3.1
+      js-sha256: 0.9.0
+    dev: false
+
+  /lodash.camelcase/4.3.0:
+    resolution: {integrity: sha1-soqmKIorn8ZRA1x3EfZathkDMaY=}
+    dev: false
+
+  /lodash.isdate/4.0.1:
+    resolution: {integrity: sha1-NaVDZzuddhEN5BFLMsxXcEin82Y=}
+    dev: false
+
+  /lodash.isregexp/4.0.1:
+    resolution: {integrity: sha1-4T5kezDNVZdSoEzZEghvr32hwws=}
+    dev: false
+
+  /lodash/4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+    dev: false
+
+  /query-string/7.1.0:
+    resolution: {integrity: sha512-wnJ8covk+S9isYR5JIXPt93kFUmI2fQ4R/8130fuq+qwLiGVTurg7Klodgfw4NSz/oe7xnyi09y3lSrogUeM3g==}
+    engines: {node: '>=6'}
+    dependencies:
+      decode-uri-component: 0.2.0
+      filter-obj: 1.1.0
+      split-on-first: 1.1.0
+      strict-uri-encode: 2.0.0
+    dev: false
+
+  /split-on-first/1.1.0:
+    resolution: {integrity: sha512-43ZssAJaMusuKWL8sKUBQXHWOpq8d6CfN/u1p4gUzfJkM05C8rxTmYrkIPTXapZpORA6LkkzcUulJ8FqA7Uudw==}
+    engines: {node: '>=6'}
+    dev: false
+
+  /strict-uri-encode/2.0.0:
+    resolution: {integrity: sha1-ucczDHBChi9rFC3CdLvMWGbONUY=}
+    engines: {node: '>=4'}
+    dev: false
+
+  /url-join/4.0.1:
+    resolution: {integrity: sha512-jk1+QP6ZJqyOiuEI9AEWQfju/nB2Pw466kbA0LEZljHwKeMgd9WrAEgEGxjPDD2+TNbbb37rTyhEfrCXfuKXnA==}
+    dev: false
+
+  /url-template/2.0.8:
+    resolution: {integrity: sha1-/FZaPMy/93MMd19WQflVV5FDnyE=}
+    dev: false
